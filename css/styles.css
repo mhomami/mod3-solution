@@ -1,0 +1,174 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: orangered;
+    border-radius: 0;
+    border: 0;
+}
+
+#logo-img {
+    background: url('../img/logo.png') no-repeat;
+    width: 100px;
+    height: 100px;
+    background-size: contain;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+    padding-top: 20px;
+}
+
+.navbar-brand h1 {
+    font-family: 'Great Vibes', cursive;
+    color: rgb(0, 0, 0);
+    font-size: 2.5em;
+    text-shadow: 1px #222;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+    text-decoration: none;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: white;
+    text-align: center;
+}
+
+#nav-list a#chicken:hover {
+    color: black;
+    background: orange;
+}
+
+#nav-list a#beef:hover {
+    color: black;
+    background: crimson;
+}
+
+#nav-list a#sushi:hover {
+    color: black;
+    background: limegreen;
+}
+
+#nav-list a span {
+    font-size: 1.5em;
+}
+
+#nav-list li {
+    border: solid 1px black;
+    margin: 1px;
+}
+
+#phone {
+    margin-top: 5px;
+}
+
+#phone a {
+    text-align: right;
+    padding-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+    border: 1px solid maroon;
+}
+
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -20px;
+}
+
+#chickenH {
+    background-color: orange;
+    text-align: center;
+    font-family: cursive;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+#beefH {
+background-color: crimson;
+text-align: center;
+font-family: cursive;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#sushiH {
+background-color: limegreen;
+text-align: center;
+font-family: cursive;
+margin-top: 20px;
+margin-left: auto;
+margin-right: auto;
+}
+
+#topLink {
+    padding-top: 10px;
+    font-size: 12px;
+    clear: both;
+}
+
+#topLink a:hover, #topLink a:focus {
+    text-decoration: none;
+    color: lightgrey;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+/*************** Large Devices ***************/
+@media (min-width: 1200px) {
+
+}
+
+/*************** Medium Devices ***************/
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/*************** Small Devices ***************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    #logo-img {
+        background: url('../img/logo.png') no-repeat;
+        width: 70px;
+        height: 70px;
+        background-size: contain;
+        margin: 10px 15px 10px 0;
+    }
+
+    .navbar-brand {
+        padding-top: 10px;
+    }
+
+    .navbar-brand h1 {
+        font-size: 2.2em;
+    }
+}
+
+/*************** XSmall Devices ***************/
+@media (max-width: 767px) {
+
+    .navbar-brand {
+        padding-top: 0;
+    }
+
+    .navbar-brand h1 {
+        font-size: 2em;
+    }
+
+    #nav-list a span {
+        padding-right: 5px;
+    }
+}
